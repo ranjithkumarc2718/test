@@ -23,7 +23,7 @@ public class StringLength {
 
 		System.out.println("Number of characters present in String is: " + count);
 		int count1 = 0;
-		// to print the number of punctuations present in string
+		// to print the number of punctuation present in string
 		for (int i = 0; i < string.length(); i++) {
 
 			if (string.charAt(i) == ',' || string.charAt(i) == '!' || string.charAt(i) == ':'
